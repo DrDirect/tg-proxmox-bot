@@ -5,8 +5,8 @@ After=network.target
 
 [Service]
 User=root
-WorkingDirectory=/home/USER-DIR/proxmox_bot
-ExecStart = /usr/bin/python3 /home/USER-DIR/proxmox_bot/proxmox-tg-bot.py
+WorkingDirectory=/home/USER-DIR/telegram-proxmox-bot
+ExecStart = /usr/bin/python3 /home/USER-DIR/telegram-proxmox-bot/proxmox-tg-bot.py
 RestartSec=10
 Restart=always
 
